@@ -180,15 +180,15 @@ function resetState() {
 //keyboard sound
 const soundTypes = {
     creamy:[
-        new Audio('Testcreamy_amp.mp3'),
-        new Audio('testcreamy2.mp3'),
+        new Audio('/resources/audio/Testcreamy_amp.mp3'),
+        new Audio('/resources/audio/testcreamy2.mp3'),
         // new Audio('testcreamy3_amp.mp3'),
         // new Audio('testcreamy4_amp.mp3'),
-        new Audio('testcreamy5_amp.mp3'),    
+        new Audio('/resources/audio/testcreamy5_amp.mp3'),
     ],
     creamy_spacebar:[
         // console.log("spacebar")
-        new Audio('Spacebar1.mp3'),    
+        new Audio('/resources/audio/Spacebar1.mp3'),    
 
     ]
 }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type-F1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timer">
+        <h1><span id="timer_id">60</span> sec</h1>
+    </div>
+    <div id="mainbox" tabindex="0">
+        <div class="leftbox">
+            <div id="txtperm"></div>
+            <div id="txtemp" class=""></div>
+        </div>
+        <div class="rightbox" tabindex="0">
+            <div id="righttxt"></div>
+        </div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li class="item1">
+                <h1>Type-rush</h1>
+            </li>
+            <li class="item2">
+                <h1>WPM: <span id="wpm_value">--</span></h1>
+            </li>
+            <li class="item3">
+                <img id="darkmode" src="light-mode.png" height="50" alt="">
+            </li>
+        </ul>
+    </div>
+    <div class="result">
+        <div class="result-container">
+            <p style="grid-area: box1;">Your score:</p>
+            <div class="score" style="grid-area: box2;">
+                <h1>WPM: <span id="result-wpm">23</span></h1>
+                <h1>CPM: <span id="result-cpm">23</span></h1>
+            </div>
+            <p style="grid-area: box3;">(press spacebar to continue)</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

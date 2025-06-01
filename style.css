@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 *{
     margin: 0;
@@ -83,7 +84,7 @@ body.dark-mode .timer{
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Rubik", sans-serif;
     position: absolute;
     top: 20%;
     left: 50%;
@@ -94,7 +95,7 @@ body.dark-mode .timer{
 }
 .leftbox{
     display: flex;
-    gap: 19px;
+    gap: 10px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -104,7 +105,7 @@ body.dark-mode .timer{
 }
 #txtperm{
     display: flex;
-    gap: 19px;
+    gap: 10px;
     /* background-color: blue; */
     color: grey ;
 }
